@@ -19,7 +19,6 @@ function App() {
       .catch(error => console.error("Todo fetch error:", error));
   }, []);
 
-console.log(State.theme);
 
   return (
     <div

@@ -1,3 +1,11 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "5008d358-2608-4560-92a8-c3d625ff6045",
+      "text": "json server kullanılarak veriler apide saklandı",
+      "is_done": true,
+      "create_at": "2023-11-20T10:49:08.626Z",
+      "theme": ""
+    }
+  ]
 }
