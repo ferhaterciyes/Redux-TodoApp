@@ -22,7 +22,9 @@ function App() {
 console.log(State.theme);
 
   return (
-    <div className={`h-screen bg-[${State.theme}] text-[rgb(240,71,71)]  flex justify-center items-center flex-col`}>
+    <div
+    style={{background:`${State.theme}`}}
+    className="h-screen  text-[rgb(240,71,71)]  flex justify-center items-center flex-col">
       <ThemeButton />
       <h1 className='m-5 text-[40px]'>Redux</h1>
       <FormContent />
